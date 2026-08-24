@@ -12,7 +12,7 @@ Esta aplicação consiste em uma evolução do formulário web interativo desenv
 
 -> Atualização da Barra de Navegação (base.html): Inclusão do link dinâmico para a página de Login e ativação dos scripts do Moment.js no layout base.
 
----
+
 
 ## ⚙️ O que foi necessário adicionar para cada funcionalidade funcionar?
 1. Novos Campos e Seleção no Formulário (hello.py e index.html)
