@@ -4,15 +4,15 @@ Esta aplicação consiste em uma evolução do formulário web interativo desenv
 <br>
 
 ## 🚀 Resumo das Adições (Versão 1 vs. Versão 2)
--> Expansão do Formulário (NameForm): Adição de novos campos de coleta de dados além do nome (surname para sobrenome, institution para instituição de ensino e discipline utilizando um campo de seleção SelectField com opções pré-definidas).
+-> **Expansão do Formulário (NameForm):** Adição de novos campos de coleta de dados além do nome (surname para sobrenome, institution para instituição de ensino e discipline utilizando um campo de seleção SelectField com opções pré-definidas).
 
--> Captura de Informações de Rede (request): Inclusão do rastreamento do endereço IP remoto (request.remote_addr) e do host da aplicação (request.host).
+-> **Captura de Informações de Rede (request):** Inclusão do rastreamento do endereço IP remoto (request.remote_addr) e do host da aplicação (request.host).
 
--> Manipulação de Tempo (datetime e Flask-Moment): Adição de relógio dinâmico, exibição de data formatada e cálculo de tempo decorrido em tempo real (fromNow()).
+-> **Manipulação de Tempo (datetime e Flask-Moment):** Adição de relógio dinâmico, exibição de data formatada e cálculo de tempo decorrido em tempo real (fromNow()).
 
--> Nova Rota e Interface de Login: Criação de uma rota dedicada (/login) no backend e de um novo template HTML correspondente (login.html).
+-> **Nova Rota e Interface de Login:** Criação de uma rota dedicada (/login) no backend e de um novo template HTML correspondente (login.html).
 
--> Atualização da Barra de Navegação (base.html): Inclusão do link dinâmico para a página de Login e ativação dos scripts do Moment.js no layout base.
+-> **Atualização da Barra de Navegação (base.html):** Inclusão do link dinâmico para a página de Login e ativação dos scripts do Moment.js no layout base.
 
 <br>
 
@@ -45,7 +45,7 @@ O que foi necessário:
 
 * Atualizar o menu de navegação no base.html incluindo o link `<li><a href="/login">Login</a></li>` para permitir o acesso do usuário à nova tela.
 
-## Demonstração
+## 👩🏽‍💻 Demonstração
 | Interface Inicial - Atualização de Instituição e Disciplina |
 | :---: |
 | <img src="https://github.com/user-attachments/assets/eade9e33-827b-4388-bc67-5113a15288ab" /> |
