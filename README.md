@@ -1,7 +1,7 @@
 # Formulário ​P2 📑​
 Esta aplicação consiste em uma evolução do formulário web interativo desenvolvido em Flask, utilizando a extensão Flask-WTF para validação de novos campos ampliados (como sobrenome, instituição e disciplinas via SelectField), o Flask-Bootstrap para estruturação visual responsiva, a arquitetura PRG (Post-Redirect-Get) com gerenciamento de sessões e cookies, além da integração do Flask-Moment e bibliotecas de data/hora para contagem dinâmica de tempo, rastreamento de IP remoto e host da aplicação, e uma nova rota dedicada para a interface de login.
 
-##🚀 Resumo das Adições (Versão 1 vs. Versão 2)
+## 🚀 Resumo das Adições (Versão 1 vs. Versão 2)
 -> Expansão do Formulário (NameForm): Adição de novos campos de coleta de dados além do nome (surname para sobrenome, institution para instituição de ensino e discipline utilizando um campo de seleção SelectField com opções pré-definidas).
 
 -> Captura de Informações de Rede (request): Inclusão do rastreamento do endereço IP remoto (request.remote_addr) e do host da aplicação (request.host).
@@ -14,7 +14,7 @@ Esta aplicação consiste em uma evolução do formulário web interativo desenv
 
 ---
 
-##⚙️ O que foi necessário adicionar para cada funcionalidade funcionar?
+## ⚙️ O que foi necessário adicionar para cada funcionalidade funcionar?
 1. Novos Campos e Seleção no Formulário (hello.py e index.html)
 O que foi necessário:
 
