@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Login{% endblock %}
+
+{% block page_content %}
+<div class="container" style="max-width: 400px; margin-top: 40px; border: 1px solid #ddd; padding: 30px; border-radius: 4px;">
+    <h2>Login:</h2>
+    <form method="POST">
+        
+        <div class="form-group" style="margin-bottom: 15px;">
+            <!-- Campos do formulário com aviso de "preencha este campo" -->
+            <input type="text" name="username" class="form-control" placeholder="Usuário ou e-mail" required>
+        </div>
+        
+        <div class="form-group" style="margin-bottom: 20px;">
+            <input type="password" name="password" class="form-control" placeholder="Informe a sua senha" required>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</div>
+
+<!-- Texto de data e hora -->
+<div class="container" style="max-width: 400px; margin-top: 20px; color: #555;">
+    <p>The local date and time is {{ current_time }}.</p>
+    
+    <!--  Flask-Moment / Moment.js para contabilizar minutagem -->
+    <p>That was {{ moment(moment_time).fromNow(refresh=True) }}.</p>
+</div>
+{% endblock %}
