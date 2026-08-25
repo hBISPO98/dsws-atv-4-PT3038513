@@ -5,7 +5,7 @@ Esta aplicação consiste em uma evolução do formulário web interativo desenv
 
 ## 🚀 Resumo das Adições (Versão 1 vs. Versão 2)
 **-> Expansão do Formulário (NameForm):**\
-Adição de novos campos de coleta de dados além do nome (surname para sobrenome, institution para instituição de ensino e discipline utilizando um campo de seleção SelectField com opções pré-definidas).
+Adição de novos campos de coleta de dados além do nome (surname para sobrenome, institution para instituição de ensino e discipline para disciplina utilizando um campo de seleção SelectField com opções pré-definidas).
 
 **-> Captura de Informações de Rede (request):**\
 Inclusão do rastreamento do endereço IP remoto (request.remote_addr) e do host da aplicação (request.host).
