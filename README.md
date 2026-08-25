@@ -1,5 +1,5 @@
 # Formulário ​P2 📑​
-Esta aplicação consiste em uma evolução do formulário web interativo desenvolvido em Flask, utilizando a extensão Flask-WTF para validação de novos campos ampliados (como sobrenome, instituição e disciplinas via SelectField), o Flask-Bootstrap para estruturação visual responsiva, a arquitetura PRG (Post-Redirect-Get) com gerenciamento de sessões e cookies, além da integração do Flask-Moment e bibliotecas de data/hora para contagem dinâmica de tempo, rastreamento de IP remoto e host da aplicação, e uma nova rota dedicada para a interface de login.
+Esta aplicação consiste em uma evolução do formulário web interativo desenvolvido em Flask, utilizando a extensão Flask-WTF para validação de novos campos ampliados (como sobrenome, instituição e disciplinas via SelectField), o Flask-Bootstrap para estruturação visual responsiva, arquitetura PRG (Post-Redirect-Get), além da integração do Flask-Moment e bibliotecas de data/hora para contagem dinâmica de tempo, rastreamento de IP remoto e host da aplicação, e uma nova rota dedicada para a interface de login.
 
 <br>
 
